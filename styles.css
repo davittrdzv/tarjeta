@@ -1,0 +1,29 @@
+.tarjeta {
+    background-color: black;
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.div1 {
+    background-color: red;    
+    display: flex;
+}
+.div2 {    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+image {
+    width: 100%;
+    padding-top: 20px;
+    align-self: center;
+}

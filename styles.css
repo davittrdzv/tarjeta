@@ -1,29 +1,81 @@
-.tarjeta {
-    background-color: black;
-    width: 40%;
-    height: 80%;
-    border-radius: 10px;
+*{
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenido {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: 10px;
+    align-items:center;
 }
-.div1 {
-    background-color: red;    
-    display: flex;
-}
-.div2 {    
+h2 {
     color: white;
+}
+.ofertas_especiales {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tarjetaizq {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    margin: 0px 5px;
+    border: 4px solid black;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
 }
-image {
-    width: 100%;
-    padding-top: 20px;
-    align-self: center;
+.tarjetacentro {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    border: 4px solid black;
+    padding: 5px;
+    background-color:yellowgreen;
+    border-radius: 10px;
+}
+.tarjetader {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    border: 4px solid black;
+    padding: 5px;
+    background-color:coral;
+    border-radius: 10px;
+}
+.textoizq {
+    background-color: aqua;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.textoizq > * {
+    background-color: aqua;
+    color: chocolate;
+}
+.textocent {
+    background-color:yellowgreen;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.textocent > * {
+    background-color: yellowgreen;
+    color:violet;
+}
+.textoder {
+    background-color:coral;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.textoder > * {
+    background-color: coral;
+    color:springgreen
+}
+.imagenizq {
+    background-color: aqua;
+}
+.imagencent {
+    background-color: yellowgreen;
+}
+.imagender {
+    background-color:coral;
 }

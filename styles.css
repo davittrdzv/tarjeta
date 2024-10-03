@@ -79,3 +79,8 @@ h2 {
 .imagender {
     background-color:coral;
 }
+img {
+    border-radius: 25px 75px;
+    padding: 10px;
+    background-color: inherit;
+}

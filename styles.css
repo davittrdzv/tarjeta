@@ -10,74 +10,67 @@
 h2 {
     color: white;
 }
-.ofertas_especiales {
+.ofertas_especiales1, .ofertas_especiales2 {
     margin-top: 20px;
     display: flex;
+    align-content: center;
+    width: 100%;
+    max-width:2000px;
+}
+.ofertas_especiales1 {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-.tarjetaizq {
+.ofertas_especiales2 {
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+.ofertas_especiales1 > div, .ofertas_especiales2 > div {
     display: flex;
     flex-direction: column;
     margin: 0px 5px;
     border: 4px solid black;
     padding: 5px;
-    background-color: aqua;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
-.tarjetacentro {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 5px;
-    border: 4px solid black;
-    padding: 5px;
+.tarjeta1 {
+    background-color: aqua;
+}
+.tarjeta2 {
     background-color:yellowgreen;
-    border-radius: 10px;
 }
-.tarjetader {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 5px;
-    border: 4px solid black;
-    padding: 5px;
+.tarjeta3 {
     background-color:coral;
-    border-radius: 10px;
 }
-.textoizq {
-    background-color: aqua;
+.tarjeta4 {
+    background-color:darkmagenta;
+}
+.tarjeta5 {
+    background-color:goldenrod;
+}
+.tarjeta6 {
+    background-color:palevioletred;
+}
+.textoizq, .textocent, .textoder {
+    background-color: inherit;
     text-align: center;
     padding-bottom: 10px;
 }
 .textoizq > * {
-    background-color: aqua;
+    background-color: inherit;
     color: chocolate;
 }
-.textocent {
-    background-color:yellowgreen;
-    text-align: center;
-    padding-bottom: 10px;
-}
 .textocent > * {
-    background-color: yellowgreen;
+    background-color: inherit;
     color:violet;
 }
-.textoder {
-    background-color:coral;
-    text-align: center;
-    padding-bottom: 10px;
-}
 .textoder > * {
-    background-color: coral;
-    color:springgreen
+    background-color: inherit;
+    color:springgreen;
 }
-.imagenizq {
-    background-color: aqua;
-}
-.imagencent {
-    background-color: yellowgreen;
-}
-.imagender {
-    background-color:coral;
+.imagen {
+    background-color: inherit;
 }
 img {
     border-radius: 25px 75px;
